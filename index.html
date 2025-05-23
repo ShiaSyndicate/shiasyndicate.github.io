@@ -4,37 +4,48 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ahmad Shah Kamal - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
+      font-family: 'Roboto', sans-serif;
+      background: #f5f7fa;
       color: #333;
       margin: 0;
-      padding: 0;
     }
     header {
-      background: #3b5998;
+      background: linear-gradient(to right, #2c3e50, #3498db);
       color: #fff;
-      padding: 2rem 1rem;
+      padding: 3rem 1rem;
       text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
     section {
       padding: 2rem;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
     }
     h2 {
-      border-bottom: 2px solid #3b5998;
-      padding-bottom: 0.5rem;
+      border-left: 4px solid #3498db;
+      padding-left: 0.5rem;
+      color: #2c3e50;
+      margin-top: 3rem;
     }
     ul {
-      line-height: 1.6;
+      line-height: 1.8;
+      padding-left: 1.5rem;
     }
     footer {
       text-align: center;
       padding: 1rem;
-      background: #333;
+      background: #2c3e50;
       color: white;
+      margin-top: 4rem;
+    }
+    .experience, .education, .certs, .skills, .languages {
+      margin-bottom: 2rem;
+    }
+    li {
+      margin-bottom: 1rem;
     }
   </style>
 </head>
@@ -45,59 +56,94 @@
   </header>
 
   <section>
-    <h2>About Me</h2>
-    <p>
-      Detail-oriented and customer-focused IT Support Specialist with a strong foundation in troubleshooting, technical support, and user education. Bilingual in English and Dari. Passionate about making technology accessible and user-friendly.
-    </p>
+    <h2>Professional Summary</h2>
+    <p>Detail-oriented and customer-focused IT Support Specialist with a strong foundation in troubleshooting hardware and software issues, providing user support, and managing IT operations in both educational and legal settings. Holds Certificates of Achievement in IT Technician and Cybersecurity from Sierra College. Experienced in Windows and ChromeOS environments, printer and device setup, and end-user training. Bilingual in English and Dari, with a passion for making technology accessible and user-friendly.</p>
   </section>
 
-  <section>
-    <h2>Resume</h2>
-    <h3>Education</h3>
+  <section class="education">
+    <h2>Education</h2>
     <ul>
-      <li><strong>B.S. Information Systems & Technology - Cybersecurity</strong>, California State University, San Bernardino (08/2024)</li>
-      <li><strong>A.S. Information Technology - Cybersecurity</strong>, Sierra College (12/2022)</li>
+      <li><strong>Bachelor of Science</strong> in Information Systems and Technology - Cybersecurity, California State University, San Bernardino, expected 08/2024</li>
+      <li><strong>Associate of Science</strong> in Information Technology - Cybersecurity, Sierra College, 12/2022</li>
+      <li>Also completed Associate of Science in Business Administration and Natural Science</li>
     </ul>
-    
-    <h3>Certifications</h3>
+  </section>
+
+  <section class="certs">
+    <h2>Certifications</h2>
     <ul>
       <li>CompTIA A+</li>
-      <li>Certificate of Achievement in Cybersecurity & IT Technician (2022)</li>
-      <li>1st Place - California Mayors Cyber Cup, Sacramento Region (2021)</li>
-    </ul>
-
-    <h3>Experience</h3>
-    <ul>
-      <li><strong>IT Intern</strong> - Superior Court of California (2022)</li>
-      <li><strong>Paraeducator</strong> - Highlands Community Charter (2022–2025)</li>
-      <li><strong>Tech Support Volunteer</strong> - California Hazara Community</li>
-      <li><strong>Assistant Manager</strong> - Powerhouse Fulfillment (2023–2024)</li>
+      <li>Certificate of Achievement in IT - Cybersecurity (2022)</li>
+      <li>Certificate of Achievement in IT - Technician (2022)</li>
+      <li>1st Place - California Mayors Cyber Cup, Greater Sacramento College Division (2021)</li>
     </ul>
   </section>
 
-  <section>
+  <section class="skills">
     <h2>Skills</h2>
     <ul>
-      <li>Windows, macOS, ChromeOS support</li>
-      <li>Microsoft 365, Google Workspace, Zoom</li>
-      <li>Networking basics & printer setup</li>
-      <li>System imaging & user onboarding</li>
-      <li>English/Dari bilingual communication</li>
+      <li>Bilingual proficiency in English and Farsi/Dari</li>
+      <li>Excellent interpersonal and communication skills</li>
+      <li>Hardware & software troubleshooting (Windows, macOS, ChromeOS)</li>
+      <li>Microsoft Office 365, Google Workspace, Zoom, Teams</li>
+      <li>Ticketing systems & remote support tools</li>
+      <li>System imaging, upgrades, and device lifecycle support</li>
+      <li>Basic networking (Wi-Fi connectivity, printer/network setup)</li>
+      <li>User onboarding, account setup, and system access</li>
     </ul>
   </section>
 
-  <section>
-    <h2>Contact</h2>
+  <section class="experience">
+    <h2>Professional Experience</h2>
     <ul>
-      <li>Email: kamalahamd2018@gmail.com</li>
-      <li>Phone: 916-793-1822</li>
-      <li>Location: Antelope, CA</li>
-      <!-- You can add a LinkedIn or GitHub link here later -->
+      <li><strong>Information Technology Intern</strong>, Superior Court of California, Sacramento (05/2022 – 10/2022)<br>
+      - Provided technical support to customers via phone, email and in person<br>
+      - Troubleshot and resolved issues related to virtual machines, printers, and Windows 10<br>
+      - Worked with onsite network team to troubleshoot and resolve network issues<br>
+      - Upgraded Windows 7 devices to Windows 10</li>
+
+      <li><strong>Volunteer Technology Support Specialist</strong>, California Hazara Community (11/2021 – Current)<br>
+      - Configured access points, Chromebooks, laptops, printers, audio and video equipment<br>
+      - Provided technical support for all hardware during programs, events, and livestreams<br>
+      - Set up video, audio, and projectors during speeches<br>
+      - Managed live streams and edited videos after programs</li>
+
+      <li><strong>Bilingual Instructional Paraeducator</strong>, Highlands Community Charter (04/2022 – 04/2025)<br>
+      - Provided day-to-day technology support for students and staff<br>
+      - Assisted with printer setup and maintenance, troubleshooting issues<br>
+      - Supported onboarding of new staff including system setup and training<br>
+      - Registered new students, maintained data entry and record accuracy<br>
+      - Translated communications and materials between English and Dari/Farsi<br>
+      - Provided academic and classroom tech support to adult learners</li>
+
+      <li><strong>Assistant Manager</strong>, Powerhouse Fulfillment INC (01/2023 – 08/2024)<br>
+      - Provided daily administrative support and tracked departmental tasks<br>
+      - Scheduled team meetings, dispatched crews, and coordinated appointments<br>
+      - Managed project timelines and uploaded documents to databases<br>
+      - Oversaw on-site installations, inspections, and maintenance<br>
+      - Provided customer support and print job troubleshooting daily</li>
+
+      <li><strong>Night Auditor</strong>, Courtyard by Marriott (11/2022 – 03/2023)<br>
+      - Checked guests in and out, handled payments and requests<br>
+      - Oversaw the hotel's accounting closeout process<br>
+      - Resolved guest issues and ensured satisfaction</li>
+
+      <li><strong>Manager/Supervisor</strong>, Baskin Robbins (04/2017 – 08/2021)<br>
+      - Trained and supervised a team of 7+ associates<br>
+      - Scheduled shifts and ensured task completion<br>
+      - Monitored sales transactions and ensured compliance</li>
+    </ul>
+  </section>
+
+  <section class="languages">
+    <h2>Languages</h2>
+    <ul>
+      <li>Farsi/Dari — Native or Bilingual Proficiency</li>
     </ul>
   </section>
 
   <footer>
-    <p>&copy; 2025 Ahmad Shah Kamal</p>
+    <p>&copy; 2025 Ahmad Shah Kamal | Portfolio</p>
   </footer>
 </body>
 </html>
